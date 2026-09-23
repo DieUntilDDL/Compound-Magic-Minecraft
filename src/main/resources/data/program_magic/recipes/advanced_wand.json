@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  C",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "program_magic:advanced_wand",
+    "count": 1
+  },
+  "show_notification": true
+}

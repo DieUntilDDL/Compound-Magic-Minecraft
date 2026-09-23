@@ -1,25 +1,39 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+# Gradle output and caches
+/.gradle/
+/build/
+/mcmodsrepo/
+src/generated/resources/.cache/
 
-# idea
-out
+# Minecraft / Forge development runtime
+/run/
+/run-data/
+/logs/
+/crash-reports/
+*.log
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+/.idea/
+/.run/
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
+/out/
 
-# gradle
-build
-.gradle
+# Visual Studio Code
+/.vscode/
 
-# other
-eclipse
-run
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# Files from Forge MDK
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Files from the Forge MDK
 forge*changelog.txt
